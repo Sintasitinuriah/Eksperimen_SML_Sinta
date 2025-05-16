@@ -24,7 +24,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Jalankan Preprocessing
-      run: python preprocessing/automate_Nama-siswa.py
+      run: python preprocessing/automate_Sinta.py
 
     - name: Commit hasil preprocessing
       run: |
